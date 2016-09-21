@@ -1,9 +1,9 @@
 # TimelineByRecyclerView
 
 
-Android中的中的是时间轴的是时间的
+Android中的时间轴的实现
 
- 结合RecyclerView 实现时间轴TimeLine
+结合RecyclerView 实现时间轴TimeLine
 
 
 ![image](https://github.com/AnyLifeZLB/TimelineByRecyclerView/raw/master/screenshot.png)
