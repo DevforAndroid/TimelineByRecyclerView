@@ -10,7 +10,7 @@ import anylife.example.timeline.adapter.TimeLineAdapter;
 import anylife.example.timeline.model.TimeLineModel;
 
 /**
- * 放
+ * 放下屠刀
  *
  */
 public class MainActivity extends AppCompatActivity {
