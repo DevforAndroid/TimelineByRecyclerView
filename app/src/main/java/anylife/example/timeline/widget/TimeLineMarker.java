@@ -10,7 +10,6 @@ import android.view.View;
 import anylife.example.timeline.R;
 
 /**
- *
  * 实现思路，把时间线分为三个部分，上竖线，下竖线，和中间圆
  *
  * 先在onMeasure测量圆的高度 resolveSize是一个很好的方法

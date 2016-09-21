@@ -1,31 +1,33 @@
 package anylife.example.timeline.model;
 
+/**
+ * 时间轴的事件定义
+ *
+ */
 public class TimeLineModel {
-    private String name;
-    private int age;
+    private String event;
+    private String time;
 
-    public TimeLineModel() {
-
+    public TimeLineModel(String event, String time) {
+        this.event = event;
+        this.time = time;
     }
 
-    public TimeLineModel(String name, int age) {
-        this.name = name;
-        this.age = age;
+    public String getEvent() {
+        return event;
     }
 
-    public int getAge() {
-        return age;
+    public void setEvent(String event) {
+        this.event = event;
     }
 
-    public String getName() {
-        return name;
+    public String getTime() {
+        return time;
     }
 
-    public void setAge(int age) {
-        this.age = age;
+    public void setTime(String time) {
+        this.time = time;
     }
 
-    public void setName(String name) {
-        this.name = name;
-    }
+
 }

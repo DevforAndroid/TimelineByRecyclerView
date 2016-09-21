@@ -37,8 +37,8 @@ public class TimeLineAdapter extends RecyclerView.Adapter<TimeLineAdapter.TimeLi
 	@Override
 	public void onBindViewHolder(TimeLineViewHolder timeLineViewHolder, int i) {
 
-		timeLineViewHolder.mName.setText("Name:" + mDataSet.get(i).getName());
-		timeLineViewHolder.mAge.setText(" Age:" + mDataSet.get(i).getAge());
+		timeLineViewHolder.mName.setText(mDataSet.get(i).getEvent());
+		timeLineViewHolder.mAge.setText(mDataSet.get(i).getTime());
 
 	}
 

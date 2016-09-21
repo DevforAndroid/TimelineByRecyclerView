@@ -1,6 +1,9 @@
 package anylife.example.timeline.adapter;
 
-
+/**
+ * 定义时间轴 的位置信息，一般的只要start,end,ATOM 3 中状态就行了，
+ *
+ */
 public class ItemType {
     public final static int NORMAL = 0;
 
